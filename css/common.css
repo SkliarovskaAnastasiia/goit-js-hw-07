@@ -29,6 +29,10 @@ input {
   color: inherit;
 }
 
+p {
+  margin: 0;
+}
+
 /*===================== TASK-1 =====================*/
 #categories {
   width: 392px;
@@ -177,4 +181,27 @@ input {
 .form-btn:hover,
 .form-btn:focus {
   background-color: #6c8cff;
+}
+
+/*===================== TASK-5 =====================*/
+.widget {
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+}
+
+.widget p {
+  margin-bottom: 16px;
+}
+
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  background-color: #4e75ff;
+
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
 }
