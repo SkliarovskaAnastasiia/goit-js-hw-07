@@ -111,7 +111,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
 
-  margin-bottom: 16px;
+  display: block;
+  margin: 16px auto 16px auto;
 }
 
 .name-input:focus {
@@ -128,6 +129,9 @@ button {
   font-size: 24px;
 
   line-height: 1.33;
+
+  width: 360px;
+  margin: 0 auto;
 }
 
 /*===================== TASK-4 =====================*/
