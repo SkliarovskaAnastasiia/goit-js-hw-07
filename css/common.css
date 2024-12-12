@@ -33,6 +33,10 @@ p {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 /*===================== TASK-1 =====================*/
 #categories {
   width: 392px;
@@ -175,7 +179,6 @@ p {
   color: #fff;
 
   margin-top: 8px;
-  cursor: pointer;
 }
 
 .form-btn:hover,
@@ -203,7 +206,6 @@ p {
 
   font-weight: 500;
   color: #fff;
-  cursor: pointer;
 }
 
 /*===================== TASK-6 =====================*/
@@ -245,7 +247,7 @@ p {
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
-  max-width: 120px;
+  min-width: 120px;
 
   font-weight: 500;
   font-size: 16px;
