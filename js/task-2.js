@@ -25,16 +25,14 @@ const images = [
   },
 ];
 
-const createGallery = arrOfImages => {
-  const gallery = document.querySelector('.gallery');
-  console.dir(gallery);
+const galleryTemplate = images
+  .map(
+    image => `
+      <li class='gallery-item'>
+       <img src = '${image.url}' alt = '${image.alt}'/>
+      </li>
+      `
+  )
+  .join('');
 
-  const markup = arrOfImages
-    .map(image => `<li class='gallery-item'><img src = '${image.url}', alt = '${image.alt}'</li>`)
-    .join('');
-  console.log(markup);
-
-  gallery.insertAdjacentHTML('afterbegin', markup);
-};
-
-createGallery(images);
+document.querySelector('.gallery').insertAdjacentHTML('afterbegin', galleryTemplate);
